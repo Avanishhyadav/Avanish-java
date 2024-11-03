@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apana Bank - Transfer Funds</title>
+    <link rel="stylesheet" href="withdral.css">
+</head>
+<body>
+    <header>
+        <h1>APANA - BANK</h1>
+        <p>ExtraOrdinary Service</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="createNewAccount.html">New Account</a></li>
+            <li><a href="balance.html">Balance</a></li>
+            <li><a href="deposit.html">Deposit</a></li>
+            <li><a href="withdraw.html">Withdraw</a></li>
+            <li><a href="transfer.html">Transfer</a></li>
+            <li><a href="close.html">Close A/C</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="transfer-form">
+            <h2>Transfer Funds</h2>
+            <form id="transferForm">
+                <label for="accountNo">Account No:</label>
+                <input type="text" id="accountNo" name="accountNo">
+                <label for="username">User Name:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <label for="targetAccountNo">Target Account No:</label>
+                <input type="text" id="targetAccountNo" name="targetAccountNo">
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount">
+                <button type="button" onclick="validateTransfer()">Submit</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+        <section class="welcome">
+                <h2>Welcome</h2>
+                <p>Each people plan their life separate depending upon their resources and wisdom. We have a design of text which will accommodate.</p>
+                <img src="https://via.placeholder.com/150" alt="Welcome Image">
+            </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+    <script src="transfer.js"></script>
+</body>
+</html>

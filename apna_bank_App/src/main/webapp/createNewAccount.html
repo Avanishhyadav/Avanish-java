@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apana Bank</title>
+    <link rel="stylesheet" href="newAccount.css">
+</head>
+<body>
+<form action="create" method="post">
+    <div class="container">
+        <header>
+            <h1>APANA - BANK</h1>
+            <p>ExtraOrdinary Service</p>
+        </header>
+         <nav>
+        <ul>
+            <li><a href="createNewAccount.html">New Account</a></li>
+            <li><a href="balance.html">Balance</a></li>
+            <li><a href="deposit.html">Deposit</a></li>
+            <li><a href="withdraw.html">Withdraw</a></li>
+            <li><a href="transfer.html">Transfer</a></li>
+            <li><a href="close.html">Close A/C</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+        <main>
+            
+            <section class="account-form">
+                <h2>Open Account Form</h2>
+                <form action="#">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <label for="re-password">Re-Password:</label>
+                    <input type="password" id="re-password" name="re-password">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount">
+                    <label for="aadhar">Aadhar number:</label>
+                    <input type="text" id="aadhar" name="aadhar">
+                    <label for="pan">Pan Card Number:</label>
+                    <input type="text" id="pan" name="pan">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                    <label for="mailid">Mail Id:</label>
+                    <input type="text" id="mail" name="mail">
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone">
+                    <div class="form-buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </div>
+                </form>
+            </section>
+            <section class="welcome">
+                <h2>Welcome</h2>
+                <p>Each people plan their life separate depending upon their resources and wisdom. We have a design of text which will accommodate.</p>
+                <img src="./welcome.jpg" alt="Welcome Image">
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 APANA Bank. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="create.js"></script>
+    </form>
+     <p>${msg}</p>
+</body>
+</html>
